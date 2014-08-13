@@ -19,6 +19,7 @@
     <![endif]-->
   </head>
   <body>
+
     <article class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -34,18 +35,26 @@
           <blockquote>Where do you meet?</blockquote>
           <p>Currently there's a meetup in Chinatown, Central London. Others may follow.</p>
           <blockquote>How does it work?</blockquote>
-          <p>Grab a ticket when a meetup is announced, then we'll book a table. Everyone turns up and pays for what they eat</p>
+          <p>Grab a ticket when a meetup is announced, then we'll book a table. Everyone turns up and pays for what they eat.</p>
           <blockquote>How much will I spend?</blockquote>
-          <p>Budget for three dishes and tea for which you'll spend £10-15.</p>
+          <p>Typically you'd order three dishes and tea which would cost about &pound;12.</p>
           <p>Tips are usually included in the bill.</p>
           <blockquote>I'm sold, where do I sign up?</blockquote>
+          <p>The next London meetup is on <strong>Thursday 28th August</strong> at Young Cheng, 22 Lisle St London WC2H 7BY</p>
+          <p>Please <a href="https://www.eventbrite.com/e/dimsumjs-august-2014-tickets-12631452013">reserve your seat</a> in advance.</p>
+          <p>If you have any questions, ask them on the <a href="https://github.com/dimsumjs/london/issues/1">GitHub issue</a>.</p>
+          <div style="overflow:hidden;height:350px;width:100%;margin-bottom:20px;">
+            <div id="gmap_canvas" style="height:350px;width:100%;"></div>
+            <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+          </div>
+          <blockquote>But I'm not in Central London</blockquote>
           <p>Watch the <a href="https://github.com/dimsumjs">repository for your nearest location</a> to find out when the next meetup is.</p>
           <p>Also <a href="https://twitter.com/dimsumjs">follow us on Twitter</a>.</p>
         </div>
       </div>
     </article>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="/javascript/map.js"></script>
   </body>
 </html>
