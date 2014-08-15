@@ -1,4 +1,4 @@
-.container .jumbotron {
+.container header.jumbotron {
   background: url(../images/header.png) left top no-repeat;
   height: 250px;
   padding-top: 250px;
@@ -6,22 +6,38 @@
   margin-bottom: 50px;
   border-radius: 0;
 }
-.jumbotron h1 {
+header.jumbotron h1 {
   margin-left: 0px;
 }
 p {
   margin-bottom: 20px;
 }
+footer p {
+  margin: auto;
+}
+footer {
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #EEE;
+  color: #999;
+}
+.highlight {
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+  padding: 0 20px;
+}
 
 @media screen and (min-width: 768px) {
-  .container .jumbotron {
+  .container header.jumbotron {
     background-position: left center;
     padding-top: 70px;
     margin-bottom: 20px;
     border-radius: 6px;
     margin-top: 20px;
   }
-  .jumbotron h1 {
+  header.jumbotron h1 {
     margin-left: 200px;
     color: #FFF;
   }
