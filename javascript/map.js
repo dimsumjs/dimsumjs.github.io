@@ -6,7 +6,13 @@ function init_map(){
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
 
-  var map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions)
+  var canvas = document.getElementById("gmap_canvas");
+
+  if(!canvas) {
+    return;
+  }
+
+  var map = new google.maps.Map(canvas, myOptions)
   var marker = new google.maps.Marker({
     map: map,
     position: position
